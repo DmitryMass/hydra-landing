@@ -54,3 +54,78 @@ body,
 .button-gradient {
   background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
 }
+
+.techno-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/tech-bgc.png');
+  background-position: center;
+  backgrouns-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 160px;
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.build-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/icons/how-we-build-line.svg');
+  background-position: center;
+  backgrouns-size: contain;
+  background-repeat: no-repeat;
+  top: -50px;
+}
+
+@media (max-width: 1030px) {
+  .build-bg {
+    display: none;
+  }
+}
+
+.main-left-line {
+  position: absolute;
+  max-width: 735px;
+  width: 100%;
+  height: 530px;
+  background-image: url('/icons/main-left-line.svg');
+  background-position: center;
+  backgrouns-size: cover;
+  background-repeat: no-repeat;
+  top: 10%;
+  right: -2%;
+}
+
+.main-top-line {
+  position: absolute;
+  max-width: 377px;
+  width: 100%;
+  height: 845px;
+  background-image: url('/icons/main-top-line.svg');
+  background-position: center;
+  backgrouns-size: contain;
+  background-repeat: no-repeat;
+  top: -50%;
+  right: 0;
+}
+.main-right-line {
+  position: absolute;
+  max-width: 415px;
+  width: 100%;
+  height: 669px;
+  background-image: url('/icons/main-right-line.svg');
+  background-position: center;
+  backgrouns-size: contain;
+  background-repeat: no-repeat;
+  top: -20%;
+  right: 0;
+}
+
+@media (max-width: 1030px) {
+  .main-top-line,
+  .main-left-line,
+  .main-right-line {
+    display: none;
+  }
+}

@@ -5,7 +5,7 @@ const Document: FC = () => {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className="dark-theme">
         <Main />
         <NextScript />
       </body>

@@ -11,7 +11,11 @@ export const AboutSection: FC = () => {
           <img src="/images/about-img.png" alt="aboutimg" />
         </div>
         <div className="max-w-[630px] w-full">
-          <Titles title="About" subtitle="Hydra vr" />
+          <Titles
+            title="About"
+            subtitle="Hydra vr"
+            classNameModificator="max-lg:text-center max-lg:hidden mb-10"
+          />
           <p className="text-sm16 max-sm:text-s14 mb-7">
             Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus
             mattis rhoncus urna neque viverra justo. Vivamus at augue eget arcu

@@ -4,8 +4,11 @@ import { Container } from '../layouts/Container';
 
 export const Main: FC = () => {
   return (
-    <section>
-      <Container classNameModificator="flex justify-between items-center gap-10 max-lg:flex-col-reverse max-md:flex-col-reverse max-md:text-center mb-20">
+    <section className="relative">
+      <Container classNameModificator="flex relative justify-between items-center gap-10 max-lg:flex-col-reverse max-md:flex-col-reverse max-md:text-center mb-20">
+        <div className="main-left-line" />
+        <div className="main-top-line" />
+        <div className="main-right-line" />
         <div className="max-w-mainSectionBox1 w-full py-5">
           <h1 className="text-xL40 font-bold mb-9 max-md:text-md24">
             <span>

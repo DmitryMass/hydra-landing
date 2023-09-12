@@ -5,7 +5,7 @@ import { contactList } from '@/utils/contactList';
 //lg need to add Mediaqueries and hidden block + add Swiper
 export const Contact: FC = () => {
   return (
-    <section className="mb-20">
+    <section className="mb-20 max-lg:hidden relative">
       <Container>
         <div className="contact-gradient py-10 pl-4 pr-10 flex justify-between items-center">
           {contactList.map(({ logo, subtitle, title }) => (

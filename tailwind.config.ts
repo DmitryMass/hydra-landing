@@ -31,7 +31,7 @@ const config: Config = {
         l36: ['36px', '40px'],
         xL40: ['40px', '52px'],
         xxL46: ['46px', 'normal'],
-        lg: ['64px', 'normal'],
+        lg64: ['64px', 'normal'],
       },
       letterSpacing: {
         tight: '1.82px',

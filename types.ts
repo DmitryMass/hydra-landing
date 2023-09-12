@@ -8,3 +8,12 @@ export type ContactListType = {
   title: string;
   subtitle: string;
 };
+
+export type TechListType = {
+  logo: string;
+};
+
+export type HowBuildType = {
+  id: number;
+  link: string;
+};
