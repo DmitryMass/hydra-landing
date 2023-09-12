@@ -26,12 +26,16 @@ export const ScrollTop: FC = () => {
 
   return (
     <div
-      className={`fixed bottom-7 right-7 w-8 h-8 z-20 p-1 animate-pulse cursor-pointer ${
+      className={`fixed bottom-7 right-7 z-20 p-1 animate-pulse cursor-pointer ${
         isVisible ? 'block' : 'hidden'
       }`}
       onClick={scrollToTop}
     >
-      TOP
+      <img
+        className="w-12 h-12 button-gradient overflow-hidden rounded-full"
+        src="/icons/scroll-top.svg"
+        alt="scroll"
+      />
     </div>
   );
 };

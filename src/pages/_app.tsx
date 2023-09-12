@@ -3,6 +3,9 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { MainLayout } from '@/components/layouts/MainLayout';
 import '@/styles/globals.css';
+import '@/styles/swiper-restyle.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
@@ -12,6 +15,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       </Head>
       <MainLayout>
         <Component {...pageProps} />
+        <ToastContainer position="bottom-left" autoClose={2000} />
       </MainLayout>
     </>
   );

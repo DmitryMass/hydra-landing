@@ -17,7 +17,7 @@ export const Burger: FC = () => {
       <div
         className={clsx(
           isMenuOpen ? 'translate-y-[0%]' : 'translate-y-[-100%]',
-          'fixed inset-0 translate-y-0 bg-blue-80 bg-opacity-80 transition-all duration-200 z-10 flex justify-center',
+          'fixed z-50 inset-0 translate-y-0 bg-blue-80 bg-opacity-80 transition-all duration-200 flex justify-center',
         )}
       >
         <button className="absolute top-4 right-4" onClick={handleOpenMenu}>

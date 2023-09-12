@@ -17,3 +17,12 @@ export type HowBuildType = {
   id: number;
   link: string;
 };
+
+export type FormType = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phoneNumber: string;
+  subject: string;
+  text: string;
+};

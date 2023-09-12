@@ -28,7 +28,7 @@ export const Main: FC = () => {
             eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget.
             Lectus mauris eros in vitae .
           </p>
-          <div className="cursor-pointer flex items-center gap-2.5">
+          <div className="cursor-pointer flex items-center gap-2.5 animate-pulse">
             <MainButton
               children={'build your world'}
               classNameModificator="max-md:w-full"

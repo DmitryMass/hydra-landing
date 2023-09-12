@@ -6,6 +6,7 @@ import { ServicesSection } from '@/components/home/ServicesSection';
 import { Technologies } from '@/components/home/Technologies';
 import { SectionBox } from '@/components/ui/SectionBox';
 import { HowWeBuild } from '@/components/home/HowWeBuild';
+import { Form } from '@/components/form/Form';
 
 const Home: FC = () => {
   return (
@@ -31,6 +32,7 @@ const Home: FC = () => {
         desc="Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
       />
       <HowWeBuild />
+      <Form />
     </>
   );
 };
