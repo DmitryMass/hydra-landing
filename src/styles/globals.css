@@ -23,11 +23,12 @@ body,
   border-radius: 90px;
   background: radial-gradient(
     2900.76% 50.13% at 50% 53.89%,
-    rgba(58, 52, 86, 0.95) 0%,
-    #211e2e 100%
+    rgba(58, 52, 86, 0.95),
+    rgba(33, 30, 46, 1)
   );
   box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
 }
+
 .why-hydra-gradient {
   border-radius: 40px;
   background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);

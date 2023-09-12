@@ -27,6 +27,7 @@ const config: Config = {
         s14: ['14px', '20px'],
         sm16: ['16px', '28px'],
         md24: ['24px', '32px'],
+        md26: ['26px', '36px'],
         l36: ['36px', '40px'],
         xL40: ['40px', '52px'],
         xxL46: ['46px', 'normal'],
@@ -43,6 +44,7 @@ const config: Config = {
       },
       backgroundColor: {
         mainImgBg: 'rgba(0, 0, 0, 0.13)',
+        stroke: 'rgba(192, 183, 232, 0.33)',
       },
     },
   },
