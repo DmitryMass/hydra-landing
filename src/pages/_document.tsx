@@ -1,13 +1,16 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import type { FC } from 'react';
+import { Html, Head, Main, NextScript } from 'next/document';
 
-export default function Document() {
+const Document: FC = () => {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className="bg-slate-800">
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
-}
+  );
+};
+
+export default Document;

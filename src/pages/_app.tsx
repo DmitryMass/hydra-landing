@@ -1,6 +1,20 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { FC } from 'react';
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+import { MainLayout } from '../components/layouts/MainLayout';
+import '@/src/styles/globals.css';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+const App: FC<AppProps> = ({ Component, pageProps }) => {
+  return (
+    <>
+      <Head>
+        <title>Hydra</title>
+      </Head>
+      <MainLayout>
+        <Component {...pageProps} />
+      </MainLayout>
+    </>
+  );
+};
+
+export default App;
