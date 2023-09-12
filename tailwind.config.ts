@@ -11,6 +11,7 @@ const config: Config = {
       maxWidth: {
         mainContainer: '1272px',
         description: '652px',
+        mainSectionBox1: '450px',
       },
       padding: {
         container: '15px',
@@ -19,14 +20,15 @@ const config: Config = {
       },
       borderRadius: {
         button: '40px',
+        mainImg: '100px 100px 100px 240px',
       },
       fontSize: {
         xs12: ['12px', '16px'],
         s14: ['14px', '20px'],
-        sm16: ['16px', '24px'],
+        sm16: ['16px', '28px'],
         md24: ['24px', '32px'],
         l36: ['36px', '40px'],
-        xL40: ['40px', 'normal'],
+        xL40: ['40px', '52px'],
         xxL46: ['46px', 'normal'],
         lg: ['64px', 'normal'],
       },
@@ -38,10 +40,9 @@ const config: Config = {
           80: '#2f2c42',
           70: '#343045',
         },
-        backgroundColor: {
-          'radial-1': 'rgba(64, 58, 95, 1)',
-          'radial-2': 'rgba(33, 30, 46, 1)',
-        },
+      },
+      backgroundColor: {
+        mainImgBg: 'rgba(0, 0, 0, 0.13)',
       },
     },
   },

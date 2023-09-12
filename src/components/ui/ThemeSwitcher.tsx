@@ -14,7 +14,7 @@ export const ThemeSwitcher: FC<ThemeSwithcerProps> = ({
   }, [isDarkTheme]);
 
   return (
-    <div>
+    <div className="fixed top-0">
       <button onClick={toggleTheme}>Toggle Theme</button>
     </div>
   );

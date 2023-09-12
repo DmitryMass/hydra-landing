@@ -1,3 +1,4 @@
+import { Main } from '@/components/home/Main';
 import { Container } from '@/components/layouts/Container';
 import { ThemeSwitcher } from '@/components/ui/ThemeSwitcher';
 import { type FC, useState } from 'react';
@@ -8,12 +9,12 @@ const Home: FC = () => {
     setIsDarkTheme((prev) => !prev);
   };
   return (
-    <section>
-      <Container>
-        <ThemeSwitcher isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />
-        <h1 className="text-red-600">DATA</h1>
+    <>
+      <ThemeSwitcher isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />
+      <Container classNameModificator="flex justify-between items-center gap-10 max-lg:flex-col-reverse max-md:flex-col-reverse max-md:text-center">
+        <Main />
       </Container>
-    </section>
+    </>
   );
 };
 
