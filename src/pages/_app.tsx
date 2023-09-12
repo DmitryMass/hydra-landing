@@ -1,8 +1,8 @@
 import type { FC } from 'react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { MainLayout } from '../components/layouts/MainLayout';
-import '@/src/styles/globals.css';
+import { MainLayout } from '@/components/layouts/MainLayout';
+import '@/styles/globals.css';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (

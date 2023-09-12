@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       maxWidth: {
         mainContainer: '1270px',
+        description: '652px',
       },
       padding: {
         container: '15px',
@@ -24,7 +25,7 @@ const config: Config = {
         s14: ['14px', '20px'],
         sm16: ['16px', '24px'],
         md24: ['24px', '32px'],
-        l: ['36px', '40px'],
+        l36: ['36px', '40px'],
         xL40: ['40px', 'normal'],
         xxL46: ['46px', 'normal'],
         lg: ['64px', 'normal'],
