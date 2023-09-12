@@ -23,7 +23,7 @@ export const Main: FC = () => {
               </span>
             </span>
           </h1>
-          <p className="text-sm16 mb-16 max-md:hidden">
+          <p className="text-sm16 mb-16 max-md:hidden max-lg:mb-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget.
             Lectus mauris eros in vitae .
@@ -31,10 +31,10 @@ export const Main: FC = () => {
           <div className="cursor-pointer flex items-center gap-2.5 animate-pulse">
             <MainButton
               children={'build your world'}
-              classNameModificator="max-md:w-full"
+              classNameModificator="max-lg:w-full"
             />
             <img
-              className="max-md:hidden"
+              className="max-lg:hidden"
               src="/icons/arrow-right.svg"
               alt="arrow"
             />

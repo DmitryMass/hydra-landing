@@ -12,21 +12,6 @@
   align-items: center;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.swiper-slide .custom-image {
-  display: block;
-  margin: 0 auto;
-  width: 24px;
-  height: 24px;
-  object-fit: cover;
-}
-
 .swiper {
   width: 100%;
   height: 300px;
@@ -39,44 +24,10 @@
   background-position: center;
 }
 
-.mySwiper2,
-.mySwiper6,
-.mySwiper4,
-.mySwiper8 {
-  height: 80%;
-  width: 100%;
-}
-
-.mySwiper,
-.mySwiper3,
-.mySwiper5,
-.mySwiper7 {
+.mySwiper {
   height: 20%;
   box-sizing: border-box;
   padding: 10px 0;
-}
-
-.mySwiper .swiper-slide,
-.mySwiper3 .swiper-slide,
-.mySwiper5 .swiper-slide,
-.mySwiper7 .swiper-slide {
-  width: 25%;
-  height: 100%;
-  opacity: 0.4;
-}
-
-.mySwiper .swiper-slide-thumb-active,
-.mySwiper3 .swiper-slide-thumb-active,
-.mySwiper5 .swiper-slide-thumb-active,
-.mySwiper7 .swiper-slide-thumb-active {
-  opacity: 1;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .swiper-slide.swiper-slide-active {
@@ -84,4 +35,11 @@
 }
 .swiper-slide {
   background: transparent;
+}
+
+.swiper-button-next::after {
+  content: url('/icons/contact-swipe-right.svg') !important;
+}
+.swiper-button-prev::after {
+  content: url('/icons/contact-swipe-left.svg') !important;
 }
