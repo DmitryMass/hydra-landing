@@ -45,6 +45,7 @@ const config: Config = {
       backgroundColor: {
         mainImgBg: 'rgba(0, 0, 0, 0.13)',
         stroke: 'rgba(192, 183, 232, 0.33)',
+        services: 'rgba(14, 14, 14, 0.32)',
       },
     },
   },

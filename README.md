@@ -5,3 +5,5 @@ Nextjs (TS) + Tailwind / Design Figma
 
 Min BreakPoint:360px
 Max BreakPoint:1272px
+
+Design without Tablet version.

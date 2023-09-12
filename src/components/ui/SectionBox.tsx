@@ -9,14 +9,18 @@ type SectionBoxProps = {
 
 export const SectionBox: FC<SectionBoxProps> = ({ desc, subtitle, title }) => {
   return (
-    <section className="mb-24">
+    <section className="mb-24 max-lg:mb-10">
       <Container classNameModificator="flex items-center justify-between max-lg:justify-center">
         <div className="max-lg:text-center">
-          <p className="text-l36 font-bold mb-2.5 max-lg:text-md26">{title}</p>
+          <p className="text-l36 font-bold mb-2.5 max-lg:text-md26 uppercase">
+            {title}
+          </p>
           <div className="relative">
-            <p className="text-l36 font-thin max-lg:text-md26">{subtitle}</p>
+            <p className="text-l36 font-thin max-lg:text-md26 uppercase">
+              {subtitle}
+            </p>
             <img
-              className="absolute top-0 -right-12 max-lg:hidden"
+              className="absolute h-[40px] max-lg:hidden"
               src="/icons/long-arrow.svg"
               alt="long"
             />

@@ -1,8 +1,4 @@
-type ContactListType = {
-  logo: string;
-  title: string;
-  subtitle: string;
-};
+import { ContactListType } from '../../types';
 
 export const contactList: ContactListType[] = [
   {

@@ -50,3 +50,7 @@ body,
 .burger-gradient {
   background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
 }
+
+.button-gradient {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
