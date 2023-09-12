@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       maxWidth: {
-        mainContainer: '1270px',
+        mainContainer: '1272px',
         description: '652px',
       },
       padding: {
