@@ -21,7 +21,9 @@ export const Nav: FC<NavProps> = ({ handleOpenMenu }) => {
         handleOpenMenu={handleOpenMenu}
       />
       <div className="lg:hidden">
-        <HeaderButtons />
+        <HeaderButtons
+        handleOpenMenu={handleOpenMenu}
+        />
       </div>
     </nav>
   );
