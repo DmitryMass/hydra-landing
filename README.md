@@ -9,3 +9,5 @@ Max BreakPoint:1272px
 Design without Tablet version.
 
 (Req: Added swiper for mobile version (sliders), (Scroll on click))
+
+Completed 13.09
