@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Container } from '../layouts/Container';
-import { Titles } from '../ui/Titles';
 import { MainButton } from '../ui/MainButton';
+import { Titles } from '../ui/Titles';
 
 export const AboutSection: FC = () => {
   return (

@@ -1,6 +1,6 @@
 import type { FC } from 'react';
-import { MainButton } from '../ui/MainButton';
 import { Container } from '../layouts/Container';
+import { MainButton } from '../ui/MainButton';
 
 export const Main: FC = () => {
   return (

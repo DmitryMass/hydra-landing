@@ -5,11 +5,17 @@ type SectionBoxProps = {
   title: string;
   subtitle: string;
   desc: string;
+  id?: string;
 };
 
-export const SectionBox: FC<SectionBoxProps> = ({ desc, subtitle, title }) => {
+export const SectionBox: FC<SectionBoxProps> = ({
+  desc,
+  subtitle,
+  title,
+  id,
+}) => {
   return (
-    <section className="mb-24 max-lg:mb-10">
+    <section id={id} className="mb-24 max-lg:mb-10">
       <Container classNameModificator="flex items-center justify-between max-lg:justify-center">
         <div className="max-lg:text-center">
           <p className="text-l36 font-bold mb-2.5 max-lg:text-md26 uppercase">

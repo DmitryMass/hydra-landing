@@ -6,6 +6,7 @@ type MainButtonProps = {
   mainButton?: boolean;
   classNameModificator?: string;
   type?: 'button' | 'submit' | 'reset' | undefined;
+  onClick?: () => void;
 };
 
 export const MainButton: FC<MainButtonProps> = ({
@@ -13,10 +14,12 @@ export const MainButton: FC<MainButtonProps> = ({
   mainButton = true,
   classNameModificator,
   type = 'button',
+  onClick,
 }) => {
   return (
     <button
       type={type}
+      onClick={onClick}
       className={clsx(
         'px-button-x py-button-y uppercase text-xs12 text-blue-80 font-bold rounded-button max-md:text-s14 relative z-10',
         mainButton

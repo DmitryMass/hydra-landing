@@ -27,7 +27,7 @@ export const Form = () => {
   };
 
   return (
-    <section className="mb-24">
+    <section id="form" className="mb-24">
       <Container>
         <div className="form-gradient py-20 px-10 max-sm:py-12 max-sm:px-3">
           <div className="max-w-[1060px] w-full mx-auto">
