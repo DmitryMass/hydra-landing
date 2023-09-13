@@ -20,8 +20,12 @@ export const Burger: FC = () => {
           'fixed z-50 inset-0 translate-y-0 bg-blue-80 bg-opacity-80 transition-all duration-200 flex justify-center',
         )}
       >
-        <button className="absolute top-4 right-4" onClick={handleOpenMenu}>
-          CLOSE
+        <button
+          className="absolute top-8 right-4 w-10 h-10"
+          onClick={handleOpenMenu}
+        >
+          <span className="w-[3px] h-8 absolute top-3 left-4 block rotate-45 button-gradient" />
+          <span className="w-[3px] h-8 absolute top-3 right-5 block -rotate-45 button-gradient" />
         </button>
         <div className="max-h-[80vh] bg-blue-80 flex justify-center items-center w-full">
           <Nav handleOpenMenu={handleOpenMenu} />
