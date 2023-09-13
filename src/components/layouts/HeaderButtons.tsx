@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import type { FC } from 'react';
 import { MainButton } from '../ui/MainButton';
 import { useScroll } from '@/hooks/useScroll';
 

@@ -1,6 +1,5 @@
 import type { FC } from 'react';
 import { HeaderButtons } from './HeaderButtons';
-import { navArr } from '@/utils/navMenu';
 import { NavList } from './NavList';
 
 type NavProps = {

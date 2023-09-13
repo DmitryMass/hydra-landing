@@ -1,8 +1,9 @@
+import { servicesList } from '@/utils/servicesList';
 import { FC } from 'react';
 import { Container } from '../layouts/Container';
-import { servicesList } from '@/utils/servicesList';
-import { MainButton } from '../ui/MainButton';
 import { ServiceItem } from './ServiceItem';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from 'swiper/modules';
 
 export const ServicesSection: FC = () => {
   return (
@@ -12,6 +13,22 @@ export const ServicesSection: FC = () => {
           {servicesList.map((service) => (
             <ServiceItem key={service.service} service={service} />
           ))}
+        </div>
+        <div className="sm:hidden">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={30}
+            loop={true}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper"
+          >
+            {servicesList.map((service) => (
+              <SwiperSlide key={service.service}>
+                <ServiceItem key={service.service} service={service} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </Container>
     </section>

@@ -6,6 +6,10 @@ import '@/styles/globals.css';
 import '@/styles/swiper-restyle.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+// swiper
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
