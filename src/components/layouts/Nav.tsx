@@ -1,10 +1,12 @@
 import type { FC } from 'react';
 import { HeaderButtons } from './HeaderButtons';
+import { navArr } from '@/utils/navMenu';
+import { NavList } from './NavList';
 
-const navArr: string[] = ['about', 'services', 'technologies', 'how to'];
 type NavProps = {
   handleOpenMenu?: () => void;
 };
+
 export const Nav: FC<NavProps> = ({ handleOpenMenu }) => {
   return (
     <nav>
@@ -15,17 +17,10 @@ export const Nav: FC<NavProps> = ({ handleOpenMenu }) => {
           alt="logo"
         />
       </div>
-      <ul className="flex items-center max-lg:flex-col max-lg:mb-5">
-        {navArr.map((nav) => (
-          <li
-            className="uppercase text-xs12 font-bold cursor-pointer py-2.5 px-4 max-lg:text-sm16"
-            key={nav}
-            onClick={handleOpenMenu}
-          >
-            {nav}
-          </li>
-        ))}
-      </ul>
+      <NavList
+        classNameModificator="flex items-center max-lg:flex-col max-lg:mb-5"
+        handleOpenMenu={handleOpenMenu}
+      />
       <div className="lg:hidden">
         <HeaderButtons />
       </div>

@@ -5,7 +5,7 @@ import { MainButton } from '../ui/MainButton';
 
 export const AboutSection: FC = () => {
   return (
-    <section className="mb-24">
+    <section className="mb-24 max-md:mb-10">
       <Container classNameModificator="max-lg:flex-col flex items-center justify-between gap-10 max-lg:gap-5">
         <div>
           <img src="/images/about-img.png" alt="aboutimg" />

@@ -150,3 +150,46 @@ body,
     display: none;
   }
 }
+
+.footer-vertical {
+  background: linear-gradient(
+    to bottom,
+    #343045,
+    #343045,
+    #c0b7e8 34.9%,
+    #8176af 68.7%,
+    #343045 99.5%
+  );
+}
+
+.footer-line {
+  background: linear-gradient(
+    to right,
+    #343045,
+    #c0b7e8 34.9%,
+    #8176af 68.7%,
+    #343045 100%
+  );
+}
+
+.footer-top-line,
+.footer-center-line {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  backgrouns-size: contain;
+  background-repeat: no-repeat;
+}
+.footer-top-line {
+  background-image: url('/icons/footer-top-line.svg');
+  top: -85%;
+  left: 0;
+  z-index: -1;
+}
+.footer-center-line {
+  background-image: url('/icons/footer-center-line.svg');
+  top: -20%;
+  left: 0;
+  z-index: -1;
+}

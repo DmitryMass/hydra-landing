@@ -5,7 +5,7 @@ import { Container } from '../layouts/Container';
 export const Main: FC = () => {
   return (
     <section className="relative">
-      <Container classNameModificator="flex relative justify-between items-center gap-10 max-lg:flex-col-reverse max-md:flex-col-reverse max-md:text-center mb-20">
+      <Container classNameModificator="flex relative justify-between items-center gap-10 max-lg:flex-col-reverse max-md:flex-col-reverse max-md:text-center mb-20 max-md:mb-10">
         <div className="main-left-line" />
         <div className="main-top-line" />
         <div className="main-right-line" />

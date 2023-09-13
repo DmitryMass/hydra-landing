@@ -5,7 +5,7 @@ import { techList } from '@/utils/techList';
 
 export const Technologies: FC = () => {
   return (
-    <section className="mb-24">
+    <section className="mb-20">
       <Container>
         <div className="relative flex justify-center items-center h-[300px] mb-10">
           <div className="techno-bg" />

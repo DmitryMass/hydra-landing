@@ -11,7 +11,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 export const Contact: FC = () => {
   return (
-    <section className="mb-20 relative">
+    <section className="mb-20 relative max-md:mb-10">
       <Container>
         <div className="contact-gradient py-10 pl-4 pr-10 flex justify-between items-center max-lg:hidden">
           {contactList.map((contact) => (

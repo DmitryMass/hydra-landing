@@ -4,7 +4,7 @@ import { howWeBuildList } from '@/utils/howWeBuildList';
 
 export const HowWeBuild: FC = () => {
   return (
-    <section className="relative mb-24">
+    <section className="relative mb-24 max-md:mb-12">
       <div className="build-bg" />
       <Container>
         <div className="grid grid-cols-4 items-center place-items-center max-lg:grid-cols-2 max-lg:gap-10">
